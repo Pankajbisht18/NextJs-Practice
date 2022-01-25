@@ -9,7 +9,7 @@ export default function Home({articles}) {
           <title>WebDev Newz</title>
           <meta name='keywords' content='Web Development, programming' />
         </Head>
-        <h1>Welcome to the NextJs Project</h1>
+        <h1 style={{textAlign:'center'}}>Welcome to the NextJs Project</h1>
         <Article articles={articles} />
     </div>
   )
